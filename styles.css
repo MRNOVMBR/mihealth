@@ -29,24 +29,24 @@ h1 {
 
 .nav {
     width: 100%;
-    height: 50 px;
+    height: 5040 px;
     background-color: #ffffff;
     padding: 15px;
     margin: 0 auto;
     text-align: right;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .navleft {
-    height: 50 px;
+    height: 40 px;
     padding: 15px;
     margin: 0 auto;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
 }
 
-#cardsContainer {
+.cardsContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -63,8 +63,6 @@ h1 {
     height: 500px;
     padding: 20px;
     margin: 30px 10px 10px 10px;
-    border: 1px solid #36312e;
-    border-radius: 15px;
     background-color: #fff9f1;
     display: inline-block;
 }
