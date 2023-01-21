@@ -1,30 +1,64 @@
 <!DOCTYPE html>
-<html lang="eng">
-
+<html>
 <head>
     <title>MiHealth</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"></link>
+    <link href="mistyles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" lang="eng">
+    <meta name="keywords" content="healthy recipes, health food">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="navleft">
-        <a href="index.html">MiHealth</a>
-    </div>
-    <div class="nav">
-        <a href="breakfast.html">Breakfast</a>
-        <a href="lunch.html">Lunch</a>
-        <a href="dinner.html">Dinner</a>
-        <a href="dessert.html">Dessert</a>
-    </div>
-    <div class="cardscontainer">
-        <div class="card">
-            <h1>Be Healthy</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa sed elementum tempus egestas sed sed risus. Senectus et netus et malesuada fames ac turpis egestas. Eget aliquet nibh praesent tristique magna sit amet. Imperdiet massa tincidunt nunc pulvinar. Nulla pellentesque dignissim enim sit amet venenatis. In cursus turpis massa tincidunt dui.</p>
-            <h3>BROWSE MENU</h3>
+    <div class="maincontain">
+
+        <div class="header">
+            <h2 class="logo"><a href="#"><span id="mi">MI</span><span id="health">HEALTH</span><a></h2>
+            <nav class="nav">
+                <a  href="#">Breakfast</a>
+                <a  href="#">Lunch</a>
+                <a  href="#">Dinner</a>
+                <a  href="#">Dessert</a>
+            </nav>
         </div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+
+        <div class="content">
+            
+            <div class="cards">
+                <div class="card siteSummary">
+                    <h1 class="headline">Be <br>Healthy</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Adipiscing vitae proin sagittis nisl rhoncus mattis.</p>
+                    <span id="browse">
+                        <h3><a href="#">BROWSE MENU &#129046</a></h3>
+                    </span>
+                </div>
+
+                <div class="card bfast">
+                    <div class="mealTextBox">
+                        <span class="textTop">SWEET</span>
+                        <span class="textBottom">BREAKFAST</span>
+                    </div>
+                </div>
+
+                <div class="card lunch">
+                    <div class="mealTextBox">
+                        <span class="textTop">FRESH</span>
+                        <span class="textBottom">LUNCH</span>
+                    </div>
+                </div>
+
+                <div class="card dinner">
+                    <div class="mealTextBox">
+                        <span class="textTop">DELICIOUS</span>
+                        <span class="textBottom">DINNER</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </body>
 

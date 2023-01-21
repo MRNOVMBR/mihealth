@@ -1,0 +1,115 @@
+html, body, .maincontain { 
+    height: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    background-image: url('Assets/bg.png');
+    background-color: #dbdbdb;
+
+}
+
+.header {
+    padding: 10px 25px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0;
+    height: 10%;
+    
+}
+.logo {
+   font-size: 40px;
+}
+#mi {
+    color: #c9250e;
+}
+
+#health {
+    color: #91de6b;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    margin: 20px;
+}
+a:hover {
+    color:#c9250e;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 25px 75px;
+}
+
+.headline {
+    margin: 0px;
+}
+
+.cards {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex: 1 60%; 
+    align-items: center;
+}
+
+.card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32%;
+    height: 65%;
+    position: relative;
+    margin: 0 5px;
+}
+
+.siteSummary {
+    background-color: #ffffff opacity 0%;
+}
+#browse a {
+    margin: 0;
+}
+
+.bfast {
+    background-image: url('Assets/bfast.jpg');
+}
+
+.lunch { 
+    background-image: url('Assets/lunch.jpg');
+}
+
+.dinner {
+    background-image: url('Assets/dinner.jpg');
+}
+
+.mealTextBox {
+    font-weight: bold;
+}
+
+.textTop {
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    bottom: 2.7em;
+    padding: .5em .6em;
+}
+
+.textBottom {
+    background-color: #91de6b;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: .8em 1em;
+    width: 6em;
+    text-align: right;
+}
